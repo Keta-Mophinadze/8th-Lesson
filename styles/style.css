@@ -1,3 +1,16 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inter {
+    font-family: 'Inter';
+    font-style: normal;
+}
+.poppins {
+    font-family: 'Poppins';
+    font-style: normal;
+}
 .header-section {
     padding-bottom: 213px;
 }
@@ -14,14 +27,13 @@
 .fa-angle-down {
     margin-left: 5px;
     color: #37393F;
+    font-size: 14px;
 }
 .navigation {
     color: #37393F;
     width: 601px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -38,47 +50,42 @@
     font-size: 18px;
     line-height: 22px;
 }
-/* Main Section */
+/* Main */
+/* Left Side Block */
 .container {
     position: relative;
 }
 .container .image {
     width: 100%;
+    display: block;
 }
 .section-div-block {
     background-color:rgba(55, 57, 63, 0.91);
-    width: 540px;
-    height: 344px;
+    width: 650px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
 .section-div-block h6 {
     color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 15px;
     padding: 93px 0 10px 90px;
 }
 .section-div-block h2 {
     color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 110%;
     padding-left: 90px;
 }
-/* Second Section */
-
 .main-container {
-    margin: 117px auto 0 auto;
+    margin: 117px auto 151.5px auto;
     width: 1220px;
     display: flex;
     justify-content: space-between;
 }
-
 .first-column-section {
     width: 478px;
     height: 1534.85px;
@@ -86,7 +93,6 @@
     flex-wrap: wrap;
     align-content: space-between;
 }
-
 .first-column {
     background-color: #F4F4F4;
     width: 478px;
@@ -96,8 +102,6 @@
 .first-column h6 {
     margin: 35px 0 24px 35px;
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 127%;
@@ -111,43 +115,29 @@
     background-color:#6B77E5;
     width: 408px;
     height: 52.85px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 17.43px 0 20px;
     margin-bottom: 23.07px;
 }
 .text,
 .icon {
     color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 127%;
 }
 .list-block {
     width: 408px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 17.43px 0 20px;
     margin-bottom: 36.5px;
 
 }
 .p-item,
-.greater-than-icon {
+.angle-icon {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 127%;
 }
-
-
-
-/* Second Column */
 .second-column {
     width: 478px;
     height: 412px;
@@ -160,8 +150,6 @@
 }
 .title-block h6 {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 127%;
@@ -171,8 +159,6 @@
 }
 .title-block p {
     color: #7D7D7D;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 146.19%;
@@ -192,15 +178,11 @@
 .fa-file-pdf,
 .fa-file-zipper,
 .span-item {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
 }
-
-/* Last Column */
 .third-column {
     position: relative;
 }
@@ -213,8 +195,6 @@
 }
 .text-block h6 {
     color: #37393F;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -222,8 +202,6 @@
 .text-block h5, 
 .span-tag {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -236,8 +214,6 @@
 }
 .text-block p {
     color:#37393F;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 146.19%;
@@ -253,14 +229,11 @@
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin: 45px auto 0 auto;
 }
-
 /* LEFT SIDE BLOCK */
 .left-side-container {
     width: 692px;
@@ -271,8 +244,6 @@
 }
 .content-block h3 {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 127%;
@@ -280,20 +251,15 @@
 }
 .content-block p {
     color: #7D7D7D;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 146.19%;
 }
-
 .middle-content-block {
     margin-bottom: 40px;
 }
 .middle-content-block h6 {
     color: #6B77E5;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 127%;
@@ -301,34 +267,25 @@
 }
 .middle-content-block p {
     color: #7D7D7D;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 146.19%;
 }
-
 .sub-content {
     display: flex;
     justify-content: space-between;
 }
-
 .sub-content-text {
     width: 332px;
 }
 .sub-content-text h5 {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 127%;
 }
-
 .sub-content-text h6 {
     color: #40DDB6;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 127%;
@@ -336,8 +293,6 @@
 }
 .sub-content-text p {
     color: #7D7D7D;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -351,8 +306,6 @@
 }
 .faq-text h3 {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 127%;
@@ -360,8 +313,6 @@
 }
 .faq-text p {
     color: #7D7D7D;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 146.19%;
@@ -371,60 +322,36 @@
     border: 1px solid #E3E3E3;
     width: 692px;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 45px 0 20px 0;
 }
 .first-faq-block p {
     color: #37393F;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
 }
-
 /* FOOTER */
 .footer-section {
     background-color: #37393F;
+    padding: 86px 0 104px 0;
 }
 .footer-main-container {
     width: 1220.01px;
     margin: 0 auto;
 }
-.footer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .contact {
     width: 834px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .call-block {
     width: 226px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .email-block {
     width: 242px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
 }
 .location-block {
     width: 246px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
-
 .image-div {
     width: 68px;
     height: 68px;
@@ -436,36 +363,25 @@
 }
 .detail-container h6 {
     color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
 }
 .detail-container a {
     color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
-
 .line {
     border: 1px solid #6C6D72;
-}
-.detail-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 54px 0 50px 0;
 }
 .quick-link {
     width: 103px;
 }
 .footer-div-title {
     color: #40DDB6;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -473,8 +389,6 @@
 }
 .footer-ul-item {
     color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 220.19%;
@@ -493,8 +407,6 @@
 }
 .subscribe-block h6 {
     color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -502,8 +414,6 @@
 }
 .subscribe-block p {
     color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 220.19%;
@@ -523,8 +433,6 @@
 }
 .message-box span {
     color: #37393F;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -538,13 +446,42 @@
     border: none;
     background: #6B77E5;
     color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
-
+.second-line {
+    border: 1px solid #6C6D72;
+    margin: 50px 0 22px 0;
+}
+.copyright p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.52%;
+}
+.first-span-item {
+    color: #40DDB6;
+}
+.second-span-item {
+    color: #6B77E5;
+}
+.icons {
+    width: 194.84px;
+}
+.icons span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.52%;
+}
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-pinterest {
+    color: #FFFFFF;
+    font-size: 18px;
+}
 
 
 
